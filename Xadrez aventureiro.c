@@ -52,19 +52,17 @@ int main() {
 
     for ( i = 0; i < cavalobaixo; i++)
     {
-        printf("Baixo");
+        printf("Baixo\n");
     // Incluido um if para garantir que a saida baixo saia 2 vezes.
         if (i == cavalobaixo - 1){
-        printf("\n");
     // Decalarado a variavel j localmente    
         int j = 0;
         while (j < cavaloesquerda){
         
-            printf("Esquerda");
+            printf("Esquerda\n");
             j++;
         }
-    }
-    printf("\n");   
+    } 
         
     }
      
